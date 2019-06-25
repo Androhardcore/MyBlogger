@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item android:title="Label">
+    <menu>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_android"
+            android:icon="@drawable/ic_android"
+            android:title="Android " />
+        <item
+            android:id="@+id/nav_linux"
+            android:icon="@drawable/ic_dev_tutorial"
+            android:title="Linux" />
+             <item
+            android:id="@+id/nav_tutorial"
+            android:icon="@drawable/ic_web_linux"
+            android:title="Tutorial" />
+
+
+    </menu>
+</item>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about_me"
+                android:icon="@drawable/ic_about_me"
+                android:title="About Me" />
+            <item
+                android:id="@+id/nav_discalimer"
+                android:icon="@drawable/ic_discalimer"
+                android:title="Disclaimer" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/ic_privacy"
+                android:title="Privacy" />
+            <item
+                android:id="@+id/nav_bug_report"
+                android:icon="@drawable/ic_bug_report"
+                android:title="Report Bug" />
+        </menu>
+    </item>
+    <item android:title="Suport me">
+        <menu>
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/ic_menu_email"
+                android:title="E-mail" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_nav_start"
+                android:orderInCategory="100"
+                android:title="Rate US" />
+        </menu>
+    </item>
+</menu>
